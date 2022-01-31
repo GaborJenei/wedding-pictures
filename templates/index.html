@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Day 1</h1>
+
+{% for pic in pics_day1 %}
+  <img src='../static/day1/{{pic}}' class="img-fluid">
+{% endfor %}
+
+{% endblock %}
